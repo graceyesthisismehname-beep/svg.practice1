@@ -1,0 +1,16 @@
+svg{
+    max-width: 60px;
+    fill:orange
+}
+
+#dot{
+    fill:palevioletred
+}
+
+svg:hover{
+    transform:scale(1.1);
+    fill:palevioletred;
+    #dot{
+        fill:purple
+    }
+}
